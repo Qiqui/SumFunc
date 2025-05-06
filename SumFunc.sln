@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumFunc", "SumFunc\SumFunc.csproj", "{7B4467B5-B0F6-4FE7-B374-C3FB6C5DB0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumFuncTests", "SumFuncTests\SumFuncTests.csproj", "{EE9DF2EC-9DE8-4084-9908-C3BCC611D1C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B4467B5-B0F6-4FE7-B374-C3FB6C5DB0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4467B5-B0F6-4FE7-B374-C3FB6C5DB0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4467B5-B0F6-4FE7-B374-C3FB6C5DB0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4467B5-B0F6-4FE7-B374-C3FB6C5DB0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9DF2EC-9DE8-4084-9908-C3BCC611D1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9DF2EC-9DE8-4084-9908-C3BCC611D1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9DF2EC-9DE8-4084-9908-C3BCC611D1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9DF2EC-9DE8-4084-9908-C3BCC611D1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C16549E1-EF1D-4BE9-97D9-60BCADC76FE1}
+	EndGlobalSection
+EndGlobal
