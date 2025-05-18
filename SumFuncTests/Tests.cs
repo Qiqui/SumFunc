@@ -27,6 +27,12 @@ namespace SumFuncTests
         {
             Assert.Throws<ArgumentNullException>(() => Calculator.SumMinNumbers(null));
         }
+        [Test]
+        public void SumMinNumbers_PositiveOverflow_ThrowsException()
+        {
+            int[] overflowCase = { int.MaxValue, int.MaxValue };
+            Assert.Throws<OverflowException>(() => Calculator.SumMinNumbers(overflowCase));
+        }
 
         [Test]
         public void SumMinNumbers_Overflow_ThrowsException()

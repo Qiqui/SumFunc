@@ -6,13 +6,13 @@ public class Program
     {
         try
         {
-            Console.WriteLine("Введите числа, разделенные пробелом или через запятую");
+            Console.WriteLine("Введите целые числа, разделенные пробелом или через запятую");
             var input = Console.ReadLine() ?? string.Empty;
 
             var numbers = InputParser.ParseInput(input);
             var result = Calculator.SumMinNumbers(numbers);
 
-            Console.WriteLine($"Сумма минимальных числе равна: {result}");
+            Console.WriteLine($"Сумма минимальных чисел равна: {result}");
         }
 
         catch (Exception ex)
